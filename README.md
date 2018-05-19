@@ -1,4 +1,7 @@
   ##############
+import React, { Component } from "react";
+
+export default class Workflow extends Component {
   // First
   constructor() {
     super();
@@ -51,4 +54,8 @@
   // Sixth (after update)
   render() {
     console.log("render");
+
+  
+  }
+}
     ############
